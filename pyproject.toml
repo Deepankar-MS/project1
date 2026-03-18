@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "project1"
+version = "1.0.0"
+description = "Base project with no dependencies"
+requires-python = ">=3.8"
+
+[tool.setuptools]
+packages = ["project1"]
+package-dir = {"project1" = "."}

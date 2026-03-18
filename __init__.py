@@ -1,4 +1,4 @@
-"""proj1 - Base project with no dependencies."""
+"""project1 - Base project with no dependencies."""
 
 __version__ = "1.0.0"
 
