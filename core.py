@@ -3,4 +3,4 @@
 
 def greet(name: str) -> str:
     """Return a greeting message."""
-    return f"Hello from project1, {name}!"
+    return f"Hello from project1, my name is agent {name}!"
