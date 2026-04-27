@@ -8,6 +8,12 @@ version = "1.0.0"
 description = "Base project with no dependencies"
 requires-python = ">=3.8"
 
+[project.optional-dependencies]
+test = ["pytest>=7.0"]
+
 [tool.setuptools]
 packages = ["project1"]
 package-dir = {"project1" = "."}
+
+[tool.pytest.ini_options]
+testpaths = ["."]
