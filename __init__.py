@@ -2,6 +2,6 @@
 
 __version__ = "1.0.0"
 
-from .core import greet
+from .core import greet, login, register_user
 
-__all__ = ["greet"]
+__all__ = ["greet", "login", "register_user"]
